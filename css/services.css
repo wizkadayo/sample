@@ -1,0 +1,61 @@
+.service-card {
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .icon i {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .icon i {
+  transform: scale(1.2);
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid #007bff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-year {
+  position: absolute;
+  left: -80px;
+  top: 0;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.timeline-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.pricing-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+.pricing-card .btn {
+  border-radius: 50px;
+}
